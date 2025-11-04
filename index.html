@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ポートフォリオ | あなたの名前</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="#">Your Name</a></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-pressed="false">Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>自己紹介を1〜2段落で。学びたい領域・強み・興味関心。</p>
+      <ul class="facts">
+        <li>拠点：東京</li>
+        <li>専攻：データサイエンス</li>
+        <li>関心：UI/UX, Web, AI</li>
+      </ul>
+    </section>
+
+    <section id="works" class="section">
+      <h2>Works</h2>
+      <div class="grid">
+        <article class="card work">
+          <img src="assets/work1.jpg" alt="作品1">
+          <h3>作品タイトル1</h3>
+          <p>概要。役割・使った技術・成果。</p>
+          <a class="btn" href="#" target="_blank" rel="noopener">見る</a>
+        </article>
+        <article class="card work">
+          <img src="assets/work2.jpg" alt="作品2">
+          <h3>作品タイトル2</h3>
+          <p>概要。役割・使った技術・成果。</p>
+          <a class="btn" href="#" target="_blank" rel="noopener">見る</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>Figma</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label>お名前<input name="name" required></label>
+        <label>メール<input name="email" type="email" required></label>
+        <label>メッセージ<textarea name="message" rows="5" required></textarea></label>
+        <button type="submit">送信</button>
+        <p id="result" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; <span id="year"></span> Your Name</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
