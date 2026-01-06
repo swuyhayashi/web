@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin: 24px;
+}
+
+h1 {
+    color: #b036b9;
+}
+
+p {
+    color: #222;
+}
+
+.intro {
+    color: #FF7834;
+    background: #f2f6ff;
+    margin-top: 64px;
+    border: 10px #000 solid;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-radius: 8px;
+}
