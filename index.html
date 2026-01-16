@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>わたしのポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>△△（名前）</h1>
+      <p class="tagline">学びながら“作れる人”になる。</p>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">自己紹介</a>
+      <a href="#works">制作物</a>
+      <a href="#skills">スキル</a>
+      <a href="#contact">連絡先</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>こんにちは！</h2>
+      <p>
+        このサイトは、HTML/CSSとPythonを学びながら作るポートフォリオです。
+        これから作品を増やして更新していきます。
+      </p>
+      <a class="btn" href="#works">制作物を見る</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>自己紹介</h2>
+      <div class="two-col">
+        <div>
+          <p class="lead">
+            ○○大学1年。興味は旅行、カフェ、デザイン、データ分析です。
+          </p>
+          <ul>
+            <li>好き：旅行の計画を立てること</li>
+            <li>学び：Web制作、Python、AI</li>
+            <li>目標：人に伝わるページを作れるようになる</li>
+          </ul>
+        </div>
+        <div class="profile-box">
+          <img class="profile" src="images/sample.jpg" alt="プロフィール写真">
+          <p class="small muted">※写真はなくてもOK（イラストでもOK）</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <h2>制作物</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>作品1：自己紹介ページ</h3>
+          <p>HTMLとCSSで基本のレイアウトを作りました。</p>
+          <a class="link" href="#">詳細（あとでリンク）</a>
+        </article>
+
+        <article class="card">
+          <h3>作品2：Pythonミニアプリ</h3>
+          <p>じゃんけんプログラムを作成しました。</p>
+          <a class="link" href="#">詳細（あとでリンク）</a>
+        </article>
+
+        <article class="card">
+          <h3>作品3：観光地紹介スライド</h3>
+          <p>Webから情報を集めて要約し、スライドにまとめました。</p>
+          <a class="link" href="#">詳細（あとでリンク）</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>スキル</h2>
+      <ul class="chips">
+        <li>HTML</li><li>CSS</li><li>Python</li><li>PowerPoint</li><li>調査・要約</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>連絡先</h2>
+      <p>連絡はSNSまたはメールでお願いします。</p>
+      <ul>
+        <li>X：@xxxxx（任意）</li>
+        <li>GitHub：github.com/xxxxx（後で設定）</li>
+      </ul>
+      <p class="small muted">
+        ※住所・電話番号など個人情報は載せないこと
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="small muted">© 2025 △△</p>
+  </footer>
+</body>
+</html>
